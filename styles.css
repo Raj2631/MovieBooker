@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 * {
   box-sizing: border-box;
@@ -12,7 +12,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  font-family: "lato", sans-serif;
+  font-family: 'lato', sans-serif;
   margin: 0;
 }
 
@@ -57,7 +57,7 @@ body {
   margin-right: 18px;
 }
 
-.seat:last-of-type(2) {
+.seat:nth-last-of-type(2) {
   margin-left: 18px;
 }
 
